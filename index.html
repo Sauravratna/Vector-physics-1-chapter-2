@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSC Physics 1st Paper - Chapter 2 (Vector) MCQ Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>HSC Physics 1st Paper</h1>
+            <h2>অধ্যায় ২: ভেক্টর (Vector) - মডেল টেস্ট</h2>
+            <div class="quiz-info">
+                <span>মোট প্রশ্ন: ১০টি</span>
+                <span id="timer">সময়: ১৫:০০</span>
+            </div>
+        </header>
+
+        <div id="quiz-screen">
+            <div id="question-container">
+                <h3 id="question-text">প্রশ্ন লোড হচ্ছে...</h3>
+                <div id="options-container" class="options-grid"></div>
+            </div>
+
+            <div class="navigation-btns">
+                <button id="prev-btn" onclick="prevQuestion()" disabled>আগের প্রশ্ন</button>
+                <button id="next-btn" onclick="nextQuestion()">পরের প্রশ্ন</button>
+                <button id="submit-btn" onclick="submitQuiz()" class="hidden">সাবমিট করুন</button>
+            </div>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h2>পরীক্ষার ফলাফল</h2>
+            <div class="score-card">
+                <p>আপনি পেয়েছেন: <span id="score">০</span> / ১০</p>
+                <p id="feedback-text"></p>
+            </div>
+            <button onclick="location.reload()" class="reload-btn">পুনরায় পরীক্ষা দিন</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+          </html>
+          
