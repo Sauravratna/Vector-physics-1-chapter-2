@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #eef2f7; /* হালকা ব্যাকগ্রাউন্ড */
+    background-color: #eef2f7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,20 +62,20 @@ header h2 {
 
 .option-btn {
     padding: 14px 18px;
-    border: 2px solid #cbd5e1; /* স্পষ্ট বর্ডার */
+    border: 2px solid #94a3b8;
     border-radius: 8px;
-    background: #f1f5f9; /* একটু গাড়ো হালকা গ্রে ব্যাকগ্রাউন্ড যাতে সাদা না লাগে */
-    color: #1e293b; /* লেখার কালার স্পষ্ট কালো/গাড়ো নীল */
+    background: #ffffff; /* ব্যাকগ্রাউন্ড সাদা রাখলেও */
+    color: #000000; /* লেখা একদম গাঢ় কালো করা হলো */
     text-align: left;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600; /* একটু মোটা করা হয়েছে যাতে সহজে পড়া যায় */
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .option-btn:hover {
-    background: #e2e8f0;
-    border-color: #94a3b8;
+    background: #f1f5f9;
+    border-color: #475569;
 }
 
 .option-btn.selected {
