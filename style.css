@@ -60,28 +60,29 @@ header h2 {
     margin-top: 20px;
 }
 
+/* Option Button er text color and background fix */
 .option-btn {
     padding: 14px 18px;
-    border: 2px solid #94a3b8;
+    border: 2px solid #94a3b8 !important;
     border-radius: 8px;
-    background: #ffffff; /* ব্যাকগ্রাউন্ড সাদা রাখলেও */
-    color: #000000; /* লেখা একদম গাঢ় কালো করা হলো */
+    background: #ffffff !important;
+    color: #000000 !important; /* Lekha ekdom kalo korar jonno */
     text-align: left;
     font-size: 16px;
-    font-weight: 600; /* একটু মোটা করা হয়েছে যাতে সহজে পড়া যায় */
+    font-weight: 700; /* Ektu beshi bold korlam */
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .option-btn:hover {
-    background: #f1f5f9;
-    border-color: #475569;
+    background: #f1f5f9 !important;
+    border-color: #475569 !important;
 }
 
 .option-btn.selected {
-    background: #007bff;
-    color: white;
-    border-color: #0056b3;
+    background: #007bff !important;
+    color: #ffffff !important; /* Select korle sada hobe */
+    border-color: #0056b3 !important;
 }
 
 .navigation-btns {
