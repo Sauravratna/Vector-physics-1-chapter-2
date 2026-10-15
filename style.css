@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f0f2f5;
+    background-color: #eef2f7; /* হালকা ব্যাকগ্রাউন্ড */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,18 +61,21 @@ header h2 {
 }
 
 .option-btn {
-    padding: 12px 15px;
-    border: 2px solid #e1e4e8;
+    padding: 14px 18px;
+    border: 2px solid #cbd5e1; /* স্পষ্ট বর্ডার */
     border-radius: 8px;
-    background: #f8f9fa;
+    background: #f1f5f9; /* একটু গাড়ো হালকা গ্রে ব্যাকগ্রাউন্ড যাতে সাদা না লাগে */
+    color: #1e293b; /* লেখার কালার স্পষ্ট কালো/গাড়ো নীল */
     text-align: left;
     font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .option-btn:hover {
-    background: #e2e6ea;
+    background: #e2e8f0;
+    border-color: #94a3b8;
 }
 
 .option-btn.selected {
@@ -119,4 +122,4 @@ button:disabled {
 .reload-btn {
     width: 100%;
     margin-top: 15px;
-      }
+    }
